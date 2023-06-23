@@ -9,6 +9,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  flex: 0;
 }
 
 ul {
@@ -22,4 +23,21 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+/******************************/
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;;
+}
+
+ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  gap: 10px;
 }
